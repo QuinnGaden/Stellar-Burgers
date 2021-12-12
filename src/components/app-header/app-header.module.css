@@ -1,0 +1,15 @@
+.header {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__nav {
+  list-style: none;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
