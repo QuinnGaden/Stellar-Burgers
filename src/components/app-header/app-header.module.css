@@ -2,14 +2,31 @@
   max-width: 1920px;
   display: flex;
   flex-direction: row;
-}
-
-.header__nav {
-  list-style: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c1c21;
 }
 
 .header__list {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
+
+.header__item {
+  height: 56px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo {  
+  margin-left: 112px;
+  margin-right: 288px;
+}
+
