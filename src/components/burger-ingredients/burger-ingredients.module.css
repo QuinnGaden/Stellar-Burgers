@@ -1,0 +1,11 @@
+.burger__tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger__nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
